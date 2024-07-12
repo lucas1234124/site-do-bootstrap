@@ -1,0 +1,15 @@
+.card {
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+.meu {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+.meu, .carousel-item img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
